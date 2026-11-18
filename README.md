@@ -1,1 +1,9 @@
-# petro_sales
+cat > .gitignore <<'EOF'
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+EOF# petro_sales
